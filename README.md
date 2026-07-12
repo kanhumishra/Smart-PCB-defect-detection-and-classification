@@ -61,7 +61,7 @@ The system detects defects from uploaded PCB images and classifies them into pre
 
 ## PCB Detection
 
-![Detection](sample/img2.png)
+![Detection](sample/img.png)
 
 ---
 
