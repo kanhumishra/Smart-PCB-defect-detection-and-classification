@@ -1,0 +1,12 @@
+__pycache__/
+*.pyc
+*.pyo
+
+venv/
+.venv/
+
+.env
+
+PCB_DATASET (1)/
+
+.ipynb_checkpoints/
