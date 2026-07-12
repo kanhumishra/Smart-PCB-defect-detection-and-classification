@@ -1,170 +1,208 @@
-# 🖥️ Smart PCB Defect Detection and Classification
+<p align="center">
+<img src="images/banner.png" width="100%">
+</p>
 
-An AI-powered web application that automatically detects and classifies defects in Printed Circuit Boards (PCBs) using Deep Learning and Computer Vision techniques.
+<h1 align="center">🔍 Smart PCB Defect Detection & Classification</h1>
 
-## 🚀 Project Overview
+<p align="center">
 
-Manual PCB inspection is time-consuming and prone to human error. This project automates the inspection process by using a trained deep learning model to identify PCB defects from uploaded images.
+AI Powered PCB Inspection using Deep Learning & Computer Vision
 
-The application provides an easy-to-use web interface where users can upload PCB images and receive instant predictions.
+</p>
 
----
+<p align="center">
 
-## ✨ Features
+<img src="https://img.shields.io/badge/Python-3.11-blue?style=for-the-badge&logo=python">
+<img src="https://img.shields.io/badge/PyTorch-DeepLearning-red?style=for-the-badge&logo=pytorch">
+<img src="https://img.shields.io/badge/OpenCV-ComputerVision-green?style=for-the-badge&logo=opencv">
+<img src="https://img.shields.io/badge/streamlit-WebApp-black?style=for-the-badge&logo=streamlit">
 
-- Detects PCB defects automatically
-- Classifies multiple defect categories
-- Fast image inference
-- User-friendly web interface
-- Deep Learning based prediction
-- Supports image upload
-- Real-time prediction results
-
----
-
-## 🧠 Defect Classes
-
-- Missing Hole
-- Mouse Bite
-- Open Circuit
-- Short
-- Spur
-- Spurious Copper
+</p>
 
 ---
 
-## 🛠️ Tech Stack
+# 📌 Overview
 
-### Programming Language
+Smart PCB Defect Detection & Classification is an AI-powered computer vision application that automates Printed Circuit Board (PCB) inspection.
 
-- Python
-
-### Deep Learning
-
-- PyTorch
-
-### Computer Vision
-
-- OpenCV
-
-### Web Framework
-
-- Flask
-
-### Libraries
-
-- Torch
-- Torchvision
-- NumPy
-- Pillow
-- OpenCV
-- JSON
+The system detects defects from uploaded PCB images and classifies them into predefined defect categories using a trained PyTorch deep learning model.
 
 ---
 
-## 📂 Project Structure
+# 🚀 Features
 
+✅ PCB Defect Detection
+
+✅ PCB Defect Classification
+
+✅ Automatic Template Matching
+
+✅ Manual Template Selection
+
+✅ Bounding Box Visualization
+
+✅ Confidence Score
+
+✅ Confidence Table
+
+✅ Confidence Graph
+
+✅ Upload Multiple PCB Images
+
+---
+
+# 🖼 Application Demo
+
+## Home Page
+
+![Home](images/home.png)
+
+---
+
+## PCB Detection
+
+![Detection](images/detection.png)
+
+---
+
+## Prediction Result
+
+![Prediction](images/result.png)
+
+---
+
+## Confidence Graph
+
+![Graph](images/chart.png)
+
+---
+
+# 🧠 Supported Defects
+
+| Defect |
+|---------|
+| Missing Hole |
+| Mouse Bite |
+| Open Circuit |
+| Short |
+| Spur |
+| Spurious Copper |
+
+---
+
+# ⚙ Technology Stack
+
+| Category | Technology |
+|----------|------------|
+| Language | Python |
+| Framework | Flask |
+| AI | PyTorch |
+| Computer Vision | OpenCV |
+| Frontend | Streamlit |
+| Visualization | Matplotlib |
+| Image Processing | Pillow |
+
+---
+
+# 🧠 AI Workflow
+
+```text
+Upload PCB Image
+        │
+        ▼
+Image Preprocessing
+        │
+        ▼
+Deep Learning Model
+        │
+        ▼
+Defect Classification
+        │
+        ▼
+Bounding Box Detection
+        │
+        ▼
+Confidence Analysis
+        │
+        ▼
+Prediction Result
 ```
+
+---
+
+# 📂 Project Structure
+
+```text
 Smart-PCB-defect-detection-and-classification
+
 │
 ├── app.py
 ├── api.py
 ├── inference_backend.py
-├── class_names.json
 ├── best_model.pth
+├── class_names.json
+│
 ├── sample/
 ├── Template/
-├── static/
-├── README.md
-└── requirements.txt
+│
+├── images/
+│      home.png
+│      detection.png
+│      result.png
+│      chart.png
+│
+├── requirements.txt
+└── README.md
 ```
 
 ---
 
-## ⚙️ Installation
+# 📈 Example Prediction
 
-Clone the repository
+| Item | Value |
+|------|-------|
+| Predicted Class | Open Circuit |
+| Confidence | 98.54% |
+| Defects Found | 6 |
+
+---
+
+# 💻 Installation
 
 ```bash
 git clone https://github.com/kanhumishra/Smart-PCB-defect-detection-and-classification.git
-```
 
-Move into the project
-
-```bash
 cd Smart-PCB-defect-detection-and-classification
-```
 
-Install dependencies
-
-```bash
 pip install -r requirements.txt
-```
 
----
-
-## ▶️ Run the Application
-
-```bash
 python app.py
 ```
 
-The application will start on
-
-```
-http://127.0.0.1:5000
-```
-
 ---
 
-## 📸 Application Workflow
+# 🎯 Future Improvements
 
-1. Upload PCB Image
-2. Image Preprocessing
-3. Deep Learning Model Prediction
-4. Display Defect Class
-5. Show Prediction Result
-
----
-
-## 🎯 Model
-
-The project uses a trained PyTorch model for PCB defect classification.
-
-Model File:
-
-```
-best_model.pth
-```
-
----
-
-## 📈 Future Improvements
-
-- Confidence Score
 - Grad-CAM Visualization
-- Multiple Image Upload
-- Defect Localization
-- Database Integration
-- REST API Deployment
+- REST API
 - Docker Support
+- Cloud Deployment
+- Live Webcam Detection
+- Defect Localization
+- Mobile App
 
 ---
 
-## 👨‍💻 Author
+# 👨‍💻 Author
 
-**Kanhu Charan Mishra**
+Kanhu Charan Mishra
 
-MCA Student | Data Analyst | AI & Machine Learning Enthusiast
+MCA Student | Data Analyst | AI Enthusiast
 
-GitHub:
+GitHub
+
 https://github.com/kanhumishra
 
-LinkedIn:
-(Add your LinkedIn URL)
-
 ---
 
-## ⭐ If you found this project useful
-
-Please consider giving it a ⭐ on GitHub.
+⭐ If you like this project, don't forget to star the repository.
