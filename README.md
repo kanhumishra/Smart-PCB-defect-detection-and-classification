@@ -55,25 +55,25 @@ The system detects defects from uploaded PCB images and classifies them into pre
 
 ## Home Page
 
-![Home](sample/Screenshot 2026-07-12 121518.png)
+![Home](sample/img1.png)
 
 ---
 
 ## PCB Detection
 
-![Detection](sample/Screenshot 2026-07-12 121713.png)
+![Detection](sample/img2.png)
 
 ---
 
 ## Prediction Result
 
-![Prediction](sample/Screenshot 2026-07-12 121728.png)
+![Prediction](sample/img3.png)
 
 ---
 
 ## Confidence Graph
 
-![Graph](sample/Screenshot 2026-07-12 121748.png)
+![Graph](sample/img4.png)
 
 ---
 
